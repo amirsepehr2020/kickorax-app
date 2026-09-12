@@ -16,9 +16,7 @@ jobs:
           java-version: '17'
       - uses: gradle/actions/setup-gradle@v4
         with:
-          gradle-version: '8.10.2'
-      - name: Show signing certificate
-        run: gradle signingReport --no-daemon
+          gradle-version: '8.11.1'
       - name: Build debug APK
         run: gradle assembleDebug --no-daemon
       - name: Upload APK
