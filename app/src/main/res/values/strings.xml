@@ -1,1 +1,3 @@
-<resources><string name="app_name">KICKORA</string><color name="primary">#111111</color><color name="splash_bg">#0B0F0D</color></resources>
+<resources>
+    <string name="app_name">KICKORA</string>
+</resources>
